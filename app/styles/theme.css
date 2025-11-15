@@ -1,18 +1,19 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
+  --oui-color-primary: 80 150 255;
+  --oui-color-primary-light: 120 180 255;
+  --oui-color-primary-darken: 50 120 230;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 189 107 237;
+  --oui-color-link: 150 130 255;
   --oui-color-link-light: 217 152 250;
 
-  --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-secondary: 230 230 240;
+  --oui-color-tertiary: 200 200 210;
+  --oui-color-quaternary: 160 160 175;
 
   --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 167 188;
@@ -29,14 +30,14 @@
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  --oui-color-fill: 32 28 45;
+  --oui-color-fill-active: 45 40 65;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
-  --oui-color-base-4: 57 52 74;
-  --oui-color-base-5: 51 46 66;
+  --oui-color-base-1: 20 25 40;
+  --oui-color-base-2: 15 20 35;
+  --oui-color-base-3: 10 15 30;
+  --oui-color-base-4: 8 12 25;
+  --oui-color-base-5: 35 32 50;
   --oui-color-base-6: 43 38 56;
   --oui-color-base-7: 36 32 47;
   --oui-color-base-8: 29 26 38;
@@ -91,4 +92,9 @@
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
+}
+
+html, body {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 16px !important;
 }
